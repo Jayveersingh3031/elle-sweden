@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Hursheys";
+    font-weight: 100;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+#left{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background-color: #333;
+    z-index: 100;   
+}
+
+#centre{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1554885462-283f71620ee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#right{
+    height:100%;
+    width: 20%;
+    background-color:white;
+}
+
+#rtop{
+    height:80%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1639583687158-1a1b0cb381b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#rbottom{
+    height: 20%;
+    width: 100%;
+}
+
+#a{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 50px;
+}
+
+#divline{
+    z-index: 100;
+    top: 60%;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    border-top: 1px white;
+    border-bottom: 1px white;
+    border-style:solid;
+}
+
+#divline h6{
+    position: absolute;
+    font-size: 20px;
+    font-family: ggg;
+    letter-spacing: 8px; 
+}
+
+#A{
+    top: 50%;
+    left: 20%;
+    color: rgb(100, 98, 98);
+    transform: translate(-50%,-50%);
+}
+
+#B{
+    top: 50%;
+    right: 10px;
+    color: rgb(100, 98, 98);
+    transform: translate(-50%,-50%);
+}
+
+#circle{
+    position: absolute;
+    border: 0.3px white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    top: 15%;
+    left: 68%;
+    border-style: solid;
+}
+
+#search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: ggg;
+    letter-spacing: 8px; 
+    color: white;
+    font-size: 12px;
+}
+
+#Anna{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    color: white;
+    font-size: 30px;
+}
+
+#l{
+    color: rgb(94, 88, 88);
+    font-size: 20px;
+    font-weight: 60;
+
+}
+
+#ELLE{
+    position:absolute;
+    top: 15%;
+    left: 35%;
+    font-size: 70px;
+    color: white;
+}
+
+#q{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    color :white;
+    font-size: 70px;
+}
+
+#centre #stylist h2{
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    color: #fff;
+    font-size: 80px;
+}
+
+#centre #stylist h1{
+    position: absolute;
+    bottom: 8%;
+    color: #fff;
+    font-size: 100px;
+}
+
+#rbottom:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#circle:hover{
+    background-color: rgba(163, 160, 160, 0.192);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#divline:hover{
+    background-color: rgba(163, 160, 160, 0.178);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#ELLE #x:hover{
+    -webkit-text-stroke: 0.3px #fff;
+    color: transparent;
+    cursor: pointer;
+    transition:0.5s;
+    font-style: italic;
+}
+
+#ELLE #y:hover{
+    -webkit-text-stroke: 0.3px #fff;
+    color: transparent;
+    cursor: pointer;
+    transition:0.5s;
+}
+
